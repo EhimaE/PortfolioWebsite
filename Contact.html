@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ehima Egede's Portfolio Website</title>
+        <link rel="stylesheet" href="portfolio_styles.css" />
+    </head>
+
+    <body>
+        <!--
+		This is the Navigation Bar
+	       -->
+        <div class="sidebar">
+            <div id="Logo">
+                <div style="margin-top: 100px"></div>
+                <img src="Images/Logo.png" alt="Logo" width="250" class="center" />
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_Me.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!--
+        This is where Nav bar ends
+            -->
+        <!-- 
+        Contact page starts here
+            -->
+        <div class="contactBoxes">
+            <h2>Contact Me</h2>
+            <form action="https://formsubmit.co/egedeehima@gmail.com" method="POST">
+                <h3>Name</h3>
+                <input type="text" name="name" required placeholder="Your Name" />
+                <h3>Email</h3>
+                <input type="email" name="email" required placeholder="Email" />
+                <h3>Message</h3>
+                <textarea placeholder="Message" name="message" required rows="8" cols="15"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <h4>egedeehima@gmail.com</h4>
+        </div>
+    </body>
+</html>

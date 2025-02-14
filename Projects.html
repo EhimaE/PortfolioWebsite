@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Ehima Egede's Portfolio Website</title>
+        <link rel="stylesheet" href="portfolio_styles.css" />
+    </head>
+
+    <body>
+        <!--
+		This is the Navigation Bar
+	       -->
+        <div class="sidebar">
+            <div id="Logo">
+                <div style="margin-top: 100px"></div>
+                <img src="Images/Logo.png" alt="Logo" width="250" class="center" />
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About_Me.html">About Me</a></li>
+                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <!--
+        This is where Nav bar ends
+            -->
+        <!-- 
+        Projects starts here
+            -->
+        <div class="main">
+            <h2>Design Projects</h2>
+        
+        <div id="grid">
+            <div class="grid-item">
+                <a href="Projects/Project_1.html"><img src="project_grid_images/image1.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_2.html"><img src="project_grid_images/image2.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_3.html"><img src="project_grid_images/image3.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_4.html"><img src="project_grid_images/image4.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_5.html"><img src="project_grid_images/image5.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_6.html"><img src="project_grid_images/image6.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_7.html"><img src="project_grid_images/image7.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_8.html"><img src="project_grid_images/image8.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_9.html"><img src="project_grid_images/image9.png" /></a>
+            </div>
+            <div class="grid-item">
+                <a href="Projects/Project_10.html"><img src="project_grid_images/image10.png" /></a>
+            </div>
+        </div>
+            </div>
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+        <script>
+            var msnry = new Masonry("#grid", {
+                itemSelector: ".grid-item",
+                columnWidth: 10
+            });
+        </script>
+    </body>
+</html>

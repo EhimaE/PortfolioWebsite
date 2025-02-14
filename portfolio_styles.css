@@ -1,0 +1,242 @@
+/* general style rules used throughout the website*/
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: "Garamond";
+}
+
+body {
+    background-color: #f0eff6;
+}
+
+/*side navigation bar information */
+ul {
+    text-transform: uppercase;
+    padding-top: 1px;
+    list-style: none;
+}
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background: #ffffff;
+    position: fixed;
+}
+
+.sidebar ul li {
+    padding: 15px;
+    margin-left: 15px;
+}
+.sidebar Logo img {
+    margin-left: 250px;
+}
+
+/*images information*/
+.HomePageImage {
+    display: block;
+    margin-left: 15px;
+}
+/*main section*/
+.main {
+    margin-left: 250px;
+}
+.AboutMe {
+    margin-left: 800px;
+}
+
+/*About me page*/
+#AboutMe {
+    margin-left: 350px;
+    padding-top: 130px;
+    width: 800px;
+    background-color: transparent;
+    clear: both;
+    bottom: 20px;
+}
+
+#ImageBoxA {
+    display: inline;
+    float: left;
+    padding: 10px;
+}
+
+#TextBoxA {
+    width: 340px;
+    display: inline;
+    float: left;
+    padding-top: 120px;
+    margin-left: 30px;
+}
+
+/*text styles*/
+
+h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+h2 {
+    text-align-last: center;
+    font-size: 35px;
+    padding-top: 60px;
+    font-family: "Brush Script MT";
+}
+h4 {
+    text-align-last: center;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+/*contact form*/
+.contactBoxes {
+    width: 600px;
+    max-width: 1000px;
+    box-sizing: border-box;
+    /*background-color: antiquewhite;*/
+    border-radius: 10px;
+    margin-left: 450px;
+}
+.contactBoxes h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.contactBoxes h3 {
+    padding: 5px;
+}
+form input,
+form textarea {
+    display: block;
+    width: 95%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    resize: none;
+}
+form input:focus,
+form textarea:focus {
+    outline: none;
+}
+form button {
+    display: block;
+    width: 100px;
+    margin-left: 490px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5b4655;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*projects grid*/
+#grid {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.grid-item {
+    width: 330px;
+    img {
+        width: 320px;
+    }
+}
+
+/*Projects pages*/
+.ProjectSection {
+    margin-left: 0;
+}
+
+.IndivProjects {
+    margin-left: 350px;
+    padding-top: 130px;
+    width: 800px;
+    background-color: transparent;
+    clear: both;
+    bottom: 20px;
+}
+
+.ImageBoxB {
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+
+.TextBoxB {
+    width: 250px;
+    display: inline;
+    float: right;
+    padding-top: 120px;
+    padding-left: 20px;
+    height: 300px;
+}
+h5 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+p {
+    padding-bottom: 15px;
+}
+
+.PNbutton {
+    margin-left: -20px;
+    display: flex; /* Use flexbox for horizontal layout */
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    margin: 0 10px; /* Add spacing between the buttons */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+}
+
+#TDandDPImagesContainer {
+    margin-top: 430px;
+    margin-left: 50px; /* Adjust as needed */
+}
+
+.TDandDPgrid-item img {
+    width: 350px;
+    padding-bottom: 20px;
+    
+    height: auto;
+    margin-right: 40px; /* Add space between image and description */
+}
+.TDandDPgrid-item a img {
+    width: 350px;
+    padding-bottom: 20px;
+    
+    height: auto;
+    margin-right: 40px; /* Add space between image and description */
+}
+
+.TDandDPgrid-item {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-direction: row; /* Arrange image and description side by side */
+    align-items: center; /* Vertically align image and description */
+}
+
+.image-container {
+    display: flex;
+    flex-direction: row; /* Arrange image and description side by side */
+    align-items: center; /* Vertically align image and description */
+    width: 100%; /* Ensure container takes full width of grid item */
+}
+
+
+.image-description {
+    /* Styles for the description text */
+    flex-grow: 1; /* Allow description to take up available space */
+}
+
+/* Optional: Add some padding to the grid items */
+.TDandDPgrid-item {
+    padding: 10px;
+}
